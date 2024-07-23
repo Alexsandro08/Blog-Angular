@@ -1,0 +1,14 @@
+<app-header/>
+<main>
+    <app-search/>
+   
+    @defer(on viewport) {
+        <app-posts/>
+    } @placeholder {
+        <section>
+            <h2>Carregando todos os posts...</h2>
+        </section>
+    } @error {
+        <h2>Ocorreu um erro ao carregar os posts</h2>
+    }
+</main>

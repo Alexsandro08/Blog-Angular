@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background: var(--primary);
+}
+
+h1, h2, h3{
+    color: var(--secondary);
+}
+
+p {
+    color: var(--secondary-010);
+}
+
+span {
+    color: var(--secondary-020);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-010);
+}
+
+svg {
+    color: var(--secondary-030);
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    color: var(--secondary-030);
+}

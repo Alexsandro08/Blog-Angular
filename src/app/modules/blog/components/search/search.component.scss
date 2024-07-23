@@ -1,0 +1,31 @@
+:host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid var(--secondary-040);
+    background: var(--primary-020);
+    border-radius: 6px;
+    font-size: 13px;
+    transition: 0.3s;
+    margin-bottom: 60px;
+}
+
+.container input:focus {
+    color: var(--secondary);
+    outline: none;
+    border-color: var(--primary);
+}
+
+.container input::placeholder {
+    color: var(--secondary-020);
+}

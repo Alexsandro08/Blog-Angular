@@ -1,0 +1,21 @@
+<div class="container">
+    <ul>
+        @for (item of arrayPosts(); track item) {
+           <li>
+             <div>
+                <div class="data">
+                  <h2>{{item.title}}</h2>
+                  <span>{{ item.dataPost }}</span>
+                </div>
+                <button [attr.width]="item.width" [attr.height]="item.height" (click)="openDialog(item)">{{ item.text }}</button>
+                <div class="reactions">
+                  <button><img src="assets/icons/heart.svg" alt=""></button>
+                  <button><img src="assets/icons/comment.svg" alt=""></button>
+                  <button><img src="assets/icons/share.svg" alt=""/></button>
+                </div>
+            </div>
+          </li>
+        }
+    </ul>
+</div>
+

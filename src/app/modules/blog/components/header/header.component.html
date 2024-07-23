@@ -1,0 +1,24 @@
+<header>
+    <div>
+        <img src="assets/profile.jpg" alt="profile" width="150" height="150" loading="eager"/>
+    </div>
+
+    <div class="teste">
+        <div class="title">
+            <h1>John Doe</h1> 
+            <p>GITHUB <img src="assets/icons/link.svg"></p>
+        </div>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ab ratione et saepe soluta nesciunt dolor iste! Voluptate magni, quia quidem ratione asperiores provident nostrum nesciunt deserunt officia eveniet sit!</p>
+       <div class="biografia">
+            <nav>
+                <ul>
+                    @for(item of arrayIcons(); track item){
+                        <li><img [src]="item.src" loading="lazy"><a href="#">{{ item.name }}</a></li>
+                     }
+                </ul>
+            </nav>
+       </div>
+    </div>
+</header>
+
+
