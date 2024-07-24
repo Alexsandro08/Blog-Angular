@@ -1,6 +1,8 @@
 <header>
-    <h2>{{ getData()?.title }}</h2>
-    <button (click)="closeModal()"><img src="assets/icons/close.svg"></button>
+    <h2 mat-dialog-title>{{ getData()?.title }}</h2>
+    <div>
+         <button (click)="closeModal()"><img src="assets/icons/close.svg"></button>
+    </div>
 </header>
 
 <mat-dialog-content>

@@ -2,34 +2,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-ul li {
+    
+    ul li {
     background: var(--primary-040);
     border: 1px solid var(--secondary-040);
     border-radius: 10px;
     margin: 20px;
     padding: 20px 25px;
-}
-
-.data {
-    display: flex;
-    justify-content: space-between;
-}
-button {
-    background: var(--primary-040);
-    color: var(--secondary-020);
-    border: none;
-}
-
-.reactions {
-    display: flex;
-    justify-content: end;
-    gap: 10px;
-    margin-top: 15px;
-    
-     & button {
-    cursor: pointer;
   }
+
+    .data {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button {
+        background: var(--primary-040);
+        color: var(--secondary-020);
+        border: none;
+    }
+
+    .reactions {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+        margin-top: 15px;
+        
+        & button {
+        cursor: pointer;
+    }
+  }
+
 }
+

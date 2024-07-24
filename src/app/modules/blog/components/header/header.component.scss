@@ -1,4 +1,4 @@
-:host{
+:host {
     &::before {
     content: '';
     display: flex;
@@ -55,4 +55,5 @@
   .title p > img {
     margin-left: 5px;
   }
+  
 }

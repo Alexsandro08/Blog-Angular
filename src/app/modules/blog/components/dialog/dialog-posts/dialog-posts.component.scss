@@ -1,3 +1,37 @@
-h2 {
-    color: black;
+::ng-deep .dialog-container-posts .mdc-dialog__container {
+    width: 850px;
+    border: 3px solid var(--secondary-040);
+    border-radius: 10px;
 }
+:host{
+
+    header, mat-dialog-content {
+    display: flex;
+    justify-content: space-between; 
+    background: var(--primary-040);
+    
+
+    & button {
+        border: none;
+        margin-right: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+        background: transparent;
+    }
+
+    h2 {
+        color: var(--secondary);
+    }
+    
+    article {
+        color: var(--secondary-020);  
+        font-size: 14px;
+    }
+}
+
+}
+
+
+
+
+
